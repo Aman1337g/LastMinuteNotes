@@ -4,7 +4,7 @@
 
 ---
 
-<img src="/assets/images/os-interview.png" width="400" height="200">
+<img src="./assets/images/os-interview.png" width="400" height="200">
 
 ### 1) What is an operating system?
 
@@ -24,11 +24,11 @@ According to the functionality that operating Systems provides the types are:
 
 - **Multitasking**: It is a system that allows more efficient use of computer hardware. This system works on more than one task at one time by rapidly switching between various tasks. These systems are also known as time-sharing systems.
 
-<img src="/assets/images/M-OS.png" width="400" height="200">
+<img src="./assets/images/M-OS.png" width="400" height="200">
 
 - **Multiprocessing**: It is a system that allows multiple or various processors in a computer to process two or more different portions of the same program simultaneously. It is used to complete more work in a shorter period of time. 
 
-<img src="/assets/images/Multiprocessing-OS.jpeg" width="400" height="200">
+<img src="./assets/images/Multiprocessing-OS.jpeg" width="400" height="200">
 
 - **Multithreading**: In multithreading you have multiple threads running within a process in interleaved fashion
 
@@ -38,7 +38,7 @@ According to the functionality that operating Systems provides the types are:
 
 The kernel is basically a computer program usually considered as a central component or module of OS. It is responsible for handling, managing, and controlling all operations of computer systems and hardware. Whenever the system starts, the kernel is loaded first and remains in the main memory. It also acts as an interface between user applications and hardware.
 
-<img src="/assets/images/kernel.png" width="400" height="200">
+<img src="./assets/images/kernel.png" width="400" height="200">
 
 #### Types of Kernel:
 
@@ -56,7 +56,7 @@ Though there are many types of kernels, only two of them are the most popular:
 
 **Operating System**: Operating system is a system program that runs on the computer to provide an interface to the computer user so that they can easily operate on the computer.
 
-<img src="/assets/images/os-kernel.png" width="400" height="200">
+<img src="./assets/images/os-kernel.png" width="400" height="200">
 
 ---
 
@@ -66,7 +66,7 @@ A process is a program in execution. when a program goes to RAM and start runnin
 
 All the states of process are defined in the image below:
 
-<img src="/assets/images/process.png" width="600" height="200">
+<img src="./assets/images/process.png" width="600" height="200">
 
 ---
 
@@ -122,7 +122,7 @@ A scheduling algorithm is a process that is used to improve efficiency by utiliz
 
 Types of Scheduling Algorithm:
 
-<img src="/assets/images/scheduling-algorithms.jpg" width="400" height="200">
+<img src="./assets/images/scheduling-algorithms.jpg" width="400" height="200">
 
 #### 1. First Come First Serve (FCFS):
 
@@ -158,7 +158,7 @@ Multilevel queue scheduling is a type of CPU scheduling in which the processes i
 
 When two processes are trying to execute simultaneously and waiting for each other to finish the execution, as they depend on each other, this halt in execution is known as a deadlock. When a deadlock occurs in the program, the system usually freezes.
 
-<img src="/assets/images/deadlock.png" width="400" height="200">
+<img src="./assets/images/deadlock.png" width="400" height="200">
 
 ---
 
@@ -202,7 +202,7 @@ There are two main types of semaphores:
 
 It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program object that helps multiple threads to access the same resource, but not simultaneously. The sole purpose of a mutex is to lock a thread with a resource so the other threads can not use the same resource until the first thread finish executing.
 
-<img src="/assets/images/Mutex-diagram.png" width="600" height="200">
+<img src="./assets/images/Mutex-diagram.png" width="600" height="200">
 
 ---
 
@@ -234,7 +234,7 @@ Demand paging is a concept used by a virtual machine. Only a part of the process
 
 It is a volatile computer memory directly attached to the register, which provides high-speed data access to the processor.
 
-<img src="/assets/images/cache.png" width="500" height="200">
+<img src="./assets/images/cache.png" width="500" height="200">
 
 ---
 
